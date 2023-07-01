@@ -4,6 +4,7 @@ loop:
 cmp ben 0
 je end
 add ayb 1
+sub ben 1
 jmp loop
 end:
 mov [0] ayb
