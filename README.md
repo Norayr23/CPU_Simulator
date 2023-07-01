@@ -39,7 +39,6 @@ Example
 
 Here's an example of a simple loop implemented in assembly code:
 
-assembly
 
 mov ayb 0
 
