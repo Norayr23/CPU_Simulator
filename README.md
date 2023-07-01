@@ -42,15 +42,25 @@ Here's an example of a simple loop implemented in assembly code:
 assembly
 
 mov ayb 0
+
 mov ben 5
+
 loop:
+
 cmp ben 0
+
 je end
+
 add ayb 1
+
 sub ben 1
+
 jmp loop
+
 end:
+
 mov [0] ayb
+
 dump_memory()
 
 
